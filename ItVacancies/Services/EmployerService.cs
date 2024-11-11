@@ -1,7 +1,3 @@
-using ItVacancies.Dtos;
-using ItVacancies.Interfaces;
-using ItVacancies.Models;
-
 namespace ItVacancies.Services;
 [AutoInterface]
 

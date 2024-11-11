@@ -1,6 +1,3 @@
-using ItVacancies.Dtos;
-using ItVacancies.Models;
-
 namespace ItVacancies.Profiles;
 
 public class EmployerProfile : Profile

@@ -1,6 +1,3 @@
-using ItVacancies.Dtos;
-using ItVacancies.Services;
-
 namespace ItVacancies.Controllers;
 [Route("api/[controller]")]
 [ApiController]
@@ -39,7 +36,7 @@ public class EmployerController : Controller
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(int id,EmployerDto employerDto)
+    public async Task<IActionResult> Update(int id, EmployerDto employerDto)
     {
         if(!ModelState.IsValid) return BadRequest(ModelState);
           
@@ -60,4 +57,4 @@ public class EmployerController : Controller
         await _employerService.Delete(id);
         return NoContent();
     }
-}
+} 

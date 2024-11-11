@@ -11,6 +11,7 @@ builder.Services.AddScoped <IEmployerService, EmployerService>();
 builder.Services.AddScoped<IResumeRepository, ResumeRepository>();
 builder.Services.AddScoped<IResumeService, ResumeService>();
 builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<IApplicantService, ApplicantService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
