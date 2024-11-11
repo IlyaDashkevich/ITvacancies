@@ -1,0 +1,6 @@
+@ItVacancies_HostAddress = http://localhost:5262
+
+GET {{ItVacancies_HostAddress}}/fisrtproject/
+Accept: application/json
+
+###

@@ -1,6 +1,0 @@
-@FirstProject_HostAddress = http://localhost:5262
-
-GET {{FirstProject_HostAddress}}/fisrtproject/
-Accept: application/json
-
-###
